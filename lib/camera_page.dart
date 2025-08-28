@@ -48,7 +48,7 @@ class _CameraPageState extends State<CameraPage> {
               height:300,
               child:image!=null?
               //display image
-              Image.file(image!):
+              Image.file(image!,fit: BoxFit.cover,):
               //show a textbox
               Center(child: const Text("No image selected")),
             ),
