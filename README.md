@@ -38,7 +38,7 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone https://github.com/mahfuzRahman189/Camera-App.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
@@ -65,7 +65,13 @@ For the app to function correctly, especially on iOS, you need to add permission
 <key>NSPhotoLibraryUsageDescription</key>
 <string>This app needs photo library access to select images</string>
 ```
-*Android permissions are typically handled by the `image_picker` package automatically.*
+### Android
+
+For Android, add the following permission to your `android/app/src/main/AndroidManifest.xml` file. The `image_picker` package may handle this automatically, but it's good practice to declare it.
+
+```xml
+<uses-permission android:name="android.permission.CAMERA" />
+```
 
 ---
 
