@@ -16,7 +16,7 @@ A simple Flutter application built as a learning project to understand the funda
 
 Here's a look at the app in action:
 
-![App Screenshot](![alt text](image.png))
+![alt text](image.png)
 
 ---
 
